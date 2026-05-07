@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate guests.json
+        run: python3 -c "import json, sys; json.load(open('guests.json')); print('guests.json is valid')"
+
+      - name: Check avatar images
+        run: python3 .github/check-avatars.py
+
+      - name: Check OPML is up-to-date
+        run: |
+          node generate-opml.mjs /tmp/cuistops-guests-check.opml
+          diff <(grep -v '<dateCreated>' cuistops-guests.opml) <(grep -v '<dateCreated>' /tmp/cuistops-guests-check.opml) \
+            || { echo "cuistops-guests.opml is out of date. Run: node generate-opml.mjs cuistops-guests.opml"; exit 1; }
