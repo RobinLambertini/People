@@ -3,7 +3,10 @@
     "id": 1,
     "name": "Quentin JOLY",
     "title": "SRE chez Lucca",
-    "roles": ["speaker", "blog"],
+    "roles": [
+      "speaker",
+      "blog"
+    ],
     "bio": "Blogger, speaker et passionné des technologies cloud-native. Ambassadeur Talos et soon-to-be Kubestronaut !",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hqnyog7skad6m4aejb2yujxy/bafkreiclf2okoz2sjzudxmuxq2w75mdfdqxelxoaustvuzszrykyq467vy",
     "linkedin": "https://www.linkedin.com/in/quentin-joly-it/",
@@ -11,25 +14,38 @@
     "github": "https://github.com/qjoly",
     "blog": "https://une-tasse-de.cafe",
     "rss": "https://une-tasse-de.cafe/index.xml",
-    "tags": ["SRE", "Talos", "Kubestronaut"]
+    "tags": [
+      "SRE",
+      "Talos",
+      "Kubestronaut"
+    ]
   },
   {
     "id": 2,
     "name": "Joel Seguillon",
     "title": "SRE & cloud architect chez GroupBees",
-    "roles": ["speaker"],
+    "roles": [
+      "speaker"
+    ],
     "bio": "Expert Kubevirt et DAPR-enjoyeur, il est l'initiateur de la communauté CuistOps",
     "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQHM1GqTyzjEHA/profile-displayphoto-scale_400_400/B4EZqjJvsYIQAg-/0/1763673832834?e=1776902400&v=beta&t=IHEoVpje-1gh6Mh1-S5lOuasDPZ-vOnFJ0_dvPbrFv4",
     "linkedin": "https://www.linkedin.com/in/jseguillon/",
     "bluesky": "https://bsky.app/profile/jseguillon.bsky.social/",
     "github": "https://github.com/jseguillon/",
-    "tags": ["DAPR", "KubeVirt", "Cloud Architecture"]
+    "tags": [
+      "DAPR",
+      "KubeVirt",
+      "Cloud Architecture"
+    ]
   },
   {
     "id": 3,
     "name": "Joseph Ligier",
     "title": "Ingénieur cloud chez Accenture",
-    "roles": ["blog", "speaker"],
+    "roles": [
+      "blog",
+      "speaker"
+    ],
     "bio": "Conçoit des plateformes internes pour accélérer la livraison logicielle.",
     "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFx_uDsiJOvwA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1689148400243?e=1776902400&v=beta&t=79wPw-1PAgdXTL9ZRcA8_ieFTB886pZMTSWX_WUjwdg",
     "linkedin": "https://www.linkedin.com/in/joseph-ligier-4b86632/",
@@ -37,54 +53,79 @@
     "github": "https://github.com/littlejo",
     "blog": "https://blog.littlejo.link/",
     "rss": "https://blog.littlejo.link/index.xml",
-    "tags": ["Cilium", "Kubestronaut", "Open Source"]
+    "tags": [
+      "Cilium",
+      "Kubestronaut",
+      "Open Source"
+    ]
   },
   {
     "id": 4,
     "name": "Maxime Leriche",
     "title": "Ingénieur Couche d'Echange DevOps",
-    "roles": ["blog"],
+    "roles": [
+      "blog"
+    ],
     "bio": "Streamer et créateur de contenu sur les technologies cloud-native, avec un focus sur Talos / Kubevirt / Proxmox / Terraform.",
     "avatar": "https://avatars.githubusercontent.com/u/24699592?v=4",
     "linkedin": "https://www.linkedin.com/in/maxime-leriche-weebo/",
     "bluesky": "https://bsky.app/profile/maxweebo.bsky.social",
     "github": "https://github.com/batleforc/",
     "blog": "https://batleforc.github.io/weebo-si/0.introduction/home.html",
-    "tags": ["Talos", "Cybersec", "Weebo-SI", "Streamer"]
+    "tags": [
+      "Talos",
+      "Cybersec",
+      "Weebo-SI",
+      "Streamer"
+    ]
   },
   {
     "id": 5,
     "name": "Denis Germain",
     "title": "Platform Engineer Manager à Lucca",
-    "roles": ["speaker", "blog"],
+    "roles": [
+      "speaker",
+      "blog"
+    ],
     "bio": "Éditeur, blogger et speaker passionné de Kubernetes et de produits cloud-native.",
     "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFbvp6ZZ1i7tg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718201577725?e=1776902400&v=beta&t=8YQKtQHMNRGyx0wd55uvoL0c4tIEedkGAecfeUmlZzs",
     "linkedin": "https://www.linkedin.com/in/denis-germain/",
     "bluesky": "https://bsky.app/profile/zwindler.fr/",
     "github": "https://github.com/zwindler/",
-    "blog": "https://blog.zwindler.fr ",
+    "blog": "https://blog.zwindler.fr",
     "rss": "https://blog.zwindler.fr/index.xml",
-    "tags": ["Kubestronaut", "Blog", "50ndk"]
+    "tags": [
+      "Kubestronaut",
+      "Blog",
+      "50ndk"
+    ]
   },
   {
     "id": 6,
     "name": "Thomas (Damyr) W.",
     "title": "SRE | blogueur DevOps & associé @ Waays",
-    "roles": ["blog"],
+    "roles": [
+      "blog"
+    ],
     "bio": "Passionné par l'open source et les pratiques DevOps/DevSecOps, j'accompagne les entreprises dans la construction d'infrastructures cloud résilientes, performantes et sécurisées depuis plus de 8 ans.",
     "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQEV6yE0qoJncA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1721997686839?e=1776902400&v=beta&t=OpCqOoyIRFZ-PcqR43M3m9fhLxExDijSrN6gMZ1IlOg",
     "linkedin": "https://www.linkedin.com/in/thomas-damyr//",
     "bluesky": "https://bsky.app/profile/damyr.fr/",
     "github": "https://github.com/DamyrFr/",
-    "blog": "https://www.damyr.fr/ ",
+    "blog": "https://www.damyr.fr/",
     "rss": "https://www.damyr.fr/index.xml",
-    "tags": ["Terraform", "Blog"]
+    "tags": [
+      "Terraform",
+      "Blog"
+    ]
   },
   {
     "id": 7,
     "name": "Julien HOMMET",
     "title": "SRE - CTO - DevOps Engineer",
-    "roles": ["blog"],
+    "roles": [
+      "blog"
+    ],
     "bio": "Bercé par le domaine informatique depuis l'âge de 4 ans, je transforme ma passion en expertise. Mes domaines de prédilection sont l'infrastructure as code, la sécurité et la virtualisation.",
     "avatar": "https://avatars.githubusercontent.com/u/1405143",
     "linkedin": "https://www.linkedin.com/in/julienhommet/",
@@ -92,12 +133,23 @@
     "github": "https://github.com/julienhmmt",
     "blog": "https://j.hommet.net",
     "rss": "https://j.hommet.net/index.xml",
-    "tags": ["Blog", "Kubernetes", "OpenTofu", "Proxmox", "SRE", "Talos", "Terraform"]
+    "tags": [
+      "Blog",
+      "Kubernetes",
+      "OpenTofu",
+      "Proxmox",
+      "SRE",
+      "Talos",
+      "Terraform"
+    ]
   },
+  {
     "id": 8,
     "name": "Jérémy Chabernaud",
     "title": "Architecte Cloud Solutions @ AQR8",
-    "roles": ["blog"],
+    "roles": [
+      "blog"
+    ],
     "bio": "Passionné des technologies cloud-native, Kubernetes, Blockchain et de Hacking. Développeur Python (Golang en apprentissage).",
     "avatar": "https://avatars.githubusercontent.com/u/2886596",
     "linkedin": "https://www.linkedin.com/in/djerfy/",
@@ -105,6 +157,11 @@
     "github": "https://github.com/djerfy",
     "blog": "https://xorhak.fr/",
     "rss": "https://xorhak.fr/rss/",
-    "tags": ["Blog", "Kubernetes", "Hacking", "Blockchain"]
+    "tags": [
+      "Blog",
+      "Kubernetes",
+      "Hacking",
+      "Blockchain"
+    ]
   }
 ]
