@@ -18,6 +18,9 @@ jobs:
       - name: Check avatar images
         run: python3 .github/check-avatars.py
 
+      - name: Check blog availability
+        run: python3 .github/check-blogs.py
+
       - name: Check OPML is up-to-date
         run: |
           node generate-opml.mjs /tmp/cuistops-guests-check.opml

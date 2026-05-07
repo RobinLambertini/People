@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>CuistOps — Blogs des potes</title>
-    <dateCreated>Thu, 07 May 2026 21:29:58 GMT</dateCreated>
+    <dateCreated>Thu, 07 May 2026 21:48:51 GMT</dateCreated>
   </head>
   <body>
     <outline text="CuistOps">
@@ -16,6 +16,7 @@
       <outline type="rss" text="Raphaël Pinson" title="Raphaël Pinson — " xmlUrl="https://dev.to/feed/raphink" htmlUrl="https://raphink.info"/>
       <outline type="rss" text="Pascal MARTIN 😶‍🌫️" title="Pascal MARTIN 😶‍🌫️ — " xmlUrl="https://blog.pascal-martin.fr/index.xml" htmlUrl="https://blog.pascal-martin.fr"/>
       <outline type="rss" text="Frédéric Léger - webofmars" title="Frédéric Léger - webofmars — " xmlUrl="https://webofmars.com/index.xml" htmlUrl="https://webofmars.com"/>
+      <outline type="rss" text="Rémi Verchère ❄️" title="Rémi Verchère ❄️ — " xmlUrl="https://www.vrchr.fr/index.xml" htmlUrl="https://vrchr.fr"/>
       <outline type="rss" text="Seboss666" title="Seboss666 — Sysadmin dans l'âme" xmlUrl="https://blog.seboss666.info/feed/" htmlUrl="https://blog.seboss666.info"/>
     </outline>
   </body>

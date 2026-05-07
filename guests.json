@@ -171,19 +171,6 @@
     ]
   },
   {
-    "id": 9,
-    "name": "Smaine Kahlouch (Smana)",
-    "title": "",
-    "roles": [
-      "blog"
-    ],
-    "bio": "SRE / DevOps / Cloud. Cloud native meetup and Kubernetes Community Days organizer. Loves surfing, skating, boxing and his family.",
-    "avatar": "avatars/smana_dev.webp",
-    "bluesky": "https://bsky.app/profile/smana.dev",
-    "tags": [],
-    "blog": "https://smana.dev"
-  },
-  {
     "id": 10,
     "name": "Aurélie Vache",
     "title": "",
@@ -210,19 +197,6 @@
     "tags": [],
     "blog": "https://raphink.info",
     "rss": "https://dev.to/feed/raphink"
-  },
-  {
-    "id": 12,
-    "name": "Alexis \"Horgix\" Chotard",
-    "title": "",
-    "roles": [
-      "blog"
-    ],
-    "bio": "Staff SRE at @payfiteng.bsky.social & Maître Raclettier — Mostly posting about conferences & tech — 🔧 Automation, ❤️ Open-Source, ⚙️ Rust,  📣🎙️ Conferences {organizer, speaker, frequent attendee} — Mandatory « I use Arch btw »",
-    "avatar": "avatars/horgix_fr.webp",
-    "bluesky": "https://bsky.app/profile/horgix.fr",
-    "tags": [],
-    "blog": "https://horgix.fr"
   },
   {
     "id": 13,
@@ -263,33 +237,22 @@
     "avatar": "avatars/bool_fr.webp",
     "bluesky": "https://bsky.app/profile/bool.fr",
     "tags": [],
-    "blog": "https://bool.fr"
+    "blog": "https://olivier.bonvalet.fr"
   },
   {
     "id": 16,
     "name": "Rémi Verchère ❄️",
     "title": "",
     "roles": [
-      "blog"
+      "blog",
+      "speaker"
     ],
     "bio": "Cloud Native Infrastructure Consultant | Kubestronaut. Compte perso, troll bienveillant.",
-    "avatar": "avatars/r_verchere_fr.webp",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:dnp6rvkryqwq43gwxxiudfkw/bafkreihjdpzrknbecngob5phutygbsqzl3stvrdbzizm4ehqvhs6fipb7y",
     "bluesky": "https://bsky.app/profile/r.verchere.fr",
     "tags": [],
-    "blog": "https://r.verchere.fr"
-  },
-  {
-    "id": 17,
-    "name": "Michael Todorovic",
-    "title": "",
-    "roles": [
-      "blog"
-    ],
-    "bio": "Automating bugs deployment at scale and empowering developer experience   Senior SRE @veepee_fr  Food, music, Akita inu lover",
-    "avatar": "avatars/michael_tf.webp",
-    "bluesky": "https://bsky.app/profile/michael.tf",
-    "tags": [],
-    "blog": "https://michael.tf"
+    "blog": "https://vrchr.fr",
+    "rss": "https://www.vrchr.fr/index.xml"
   },
   {
     "id": 18,
