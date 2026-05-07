@@ -1,25 +1,12 @@
-name: Deploy to GitHub Pages
+name: CI
 
 on:
-  push:
+  pull_request:
     branches:
       - main
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -36,18 +23,3 @@ jobs:
           node generate-opml.mjs /tmp/cuistops-guests-check.opml
           diff <(grep -v '<dateCreated>' cuistops-guests.opml) <(grep -v '<dateCreated>' /tmp/cuistops-guests-check.opml) \
             || { echo "cuistops-guests.opml is out of date. Run: node generate-opml.mjs cuistops-guests.opml"; exit 1; }
-
-      - name: Generate OPML
-        run: node generate-opml.mjs cuistops-guests.opml
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4

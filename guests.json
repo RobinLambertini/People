@@ -64,7 +64,8 @@
     "name": "Maxime Leriche",
     "title": "Ingénieur Couche d'Echange DevOps",
     "roles": [
-      "blog"
+      "blog",
+      "streamer"
     ],
     "bio": "Streamer et créateur de contenu sur les technologies cloud-native, avec un focus sur Talos / Kubevirt / Proxmox / Terraform.",
     "avatar": "https://avatars.githubusercontent.com/u/24699592?v=4",
