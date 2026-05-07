@@ -603,7 +603,7 @@
     <div class="logo-icon">🍳</div>
     <span class="logo-text">Cuist<span>Ops</span></span>
   </a>
-  <span class="header-subtitle">Le live DevOps francophone du lundi soir !</span>
+  <span class="header-subtitle">La communauté Française Dev|Ops !</span>
   <a class="opml-btn" href="cuistops-guests.opml" download>
     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/></svg>
     Télécharger l'OPML
@@ -613,7 +613,7 @@
 <main>
   <div class="hero">
     <h1>La <span>cuisine</span></h1>
-    <p>Découvrez la communauté CuistOps ( Guests, viewers, copains ).</p>
+    <p>Dev, Ops, Platform Engineer, SRE, DevRel... Retrouvez les acteurs de la communauté française ! </p>
   </div>
 
   <div class="search-wrapper">
@@ -638,6 +638,7 @@
 
   <div class="stats-bar">
     <p class="guest-count"><strong id="count">0</strong> personne(s) affichée(s)</p>
+    <button class="view-btn" id="sort-btn" title="Trier A→Z / défaut" onclick="toggleSort()">A→Z</button>
     <div class="view-toggle">
       <button class="view-btn active" id="grid-btn" title="Vue grille" onclick="setView('grid')">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -676,6 +677,14 @@
   let guests = [];
   let currentView = 'grid';
   let activeFilter = 'all';
+  let sortAlpha = false;
+
+  function toggleSort() {
+    sortAlpha = !sortAlpha;
+    const btn = document.getElementById('sort-btn');
+    btn.classList.toggle('active', sortAlpha);
+    applyFilters();
+  }
 
   async function loadGuests() {
     try {
@@ -791,6 +800,9 @@
         g.bio.toLowerCase().includes(q) ||
         g.tags.some(t => t.toLowerCase().includes(q))
       );
+    }
+    if (sortAlpha) {
+      filtered = [...filtered].sort((a, b) => a.name.localeCompare(b.name, 'fr'));
     }
     render(filtered);
   }

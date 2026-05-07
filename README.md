@@ -40,6 +40,7 @@ Toutes les données sont dans [`guests.json`](guests.json). Ajouter une entrée 
 | `github` | URL \| `null` | non | Profil GitHub |
 | `blog` | URL \| `null` | non | Blog personnel — affiché en bouton mis en valeur sur la carte |
 | `rss` | URL \| `null` | non | Flux RSS du blog |
+| `skip_blog_check` | booléen | non | Si `true`, exclut le blog de la vérification automatique de disponibilité (utile si le site bloque les bots/scrapers) |
 | `tags` | tableau de chaînes | oui | Mots-clés (2-4 recommandés) |
 
 > Les champs optionnels absents ou à `null` n'affichent pas le bouton correspondant.
