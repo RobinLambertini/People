@@ -508,6 +508,12 @@
       border: 1px solid rgba(52, 211, 153, 0.3);
     }
 
+    .role-badge.streamer {
+      background: rgba(239, 68, 68, 0.12);
+      color: #ef4444;
+      border: 1px solid rgba(239, 68, 68, 0.3);
+    }
+
     /* ── Filter tabs ── */
     .filter-tabs {
       display: flex;
@@ -550,6 +556,7 @@
 
     .filter-tab[data-role="blog"] .dot { background: #fbbf24; }
     .filter-tab[data-role="speaker"] .dot { background: #34d399; }
+    .filter-tab[data-role="streamer"] .dot { background: #ef4444; }
 
     /* ── Empty state ── */
     .empty-state {
@@ -616,6 +623,7 @@
     <button class="filter-tab active" data-role="all" onclick="setFilter('all')">Tous</button>
     <button class="filter-tab" data-role="speaker" onclick="setFilter('speaker')"><span class="dot"></span>Speakers</button>
     <button class="filter-tab" data-role="blog" onclick="setFilter('blog')"><span class="dot"></span>Blogs</button>
+    <button class="filter-tab" data-role="streamer" onclick="setFilter('streamer')"><span class="dot"></span>Streamers</button>
   </div>
 
   <div class="stats-bar">
@@ -703,8 +711,9 @@
       ? `<a class="blog-link" href="${g.blog}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">${ICONS.blog} Lire le blog</a>`
       : '';
 
+    const ROLE_LABELS = { blog: 'Blog', speaker: 'Speaker', streamer: 'Streamer' };
     const badges = (g.roles ?? [g.role]).map(r => {
-      const label = r === 'blog' ? 'Blog' : 'Speaker';
+      const label = ROLE_LABELS[r] ?? r;
       return `<span class="role-badge ${r}">${label}</span>`;
     }).join('');
 
