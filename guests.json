@@ -139,6 +139,7 @@
     "github": "https://github.com/julienhmmt",
     "blog": "https://j.hommet.net",
     "rss": "https://j.hommet.net/index.xml",
+    "skip_blog_check": true,
     "tags": [
       "Blog",
       "Kubernetes",
@@ -253,19 +254,6 @@
     "tags": [],
     "blog": "https://vrchr.fr",
     "rss": "https://www.vrchr.fr/index.xml"
-  },
-  {
-    "id": 18,
-    "name": "Axel Vanzaghi",
-    "title": "",
-    "roles": [
-      "blog"
-    ],
-    "bio": "Thoughts Are My Own | Réanimateur de machines (SRE) @OVHcloud  | Tech addict | French and English",
-    "avatar": "avatars/axellink_fr.webp",
-    "bluesky": "https://bsky.app/profile/axellink.fr",
-    "tags": [],
-    "blog": "https://axellink.fr"
   },
   {
     "id": 19,

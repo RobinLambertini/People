@@ -16,6 +16,9 @@ for g in guests:
     url = g.get("blog", "")
     if not url:
         continue
+    if g.get("skip_blog_check"):
+        print(f"SKIP  {g['name']}  (bot-filter bypass)")
+        continue
     try:
         req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
