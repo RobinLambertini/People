@@ -287,5 +287,103 @@
       "Sysadmin",
       "Linux"
     ]
+  },
+  {
+    "id": 21,
+    "name": "Yves \"Yorzian\" Rougy",
+    "title": "Vulgarisateur Unix/Linux",
+    "roles": [
+      "streamer"
+    ],
+    "bio": "Vulgarisation, Unix/Linux teacher. Twitch partner. Internet Dinosaur.",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4mh4n3obsndyxngupxwtcohv/bafkreigm6nkm543iufv5anc7tbx2lnomtysdfam6wxjx4dqkb4h6g57dk4@jpeg",
+    "bluesky": "https://bsky.app/profile/yrougy.bsky.social",
+    "github": "https://github.com/yrougy",
+    "twitch": "https://twitch.tv/yorzian",
+    "tags": [
+      "Unix",
+      "Linux",
+      "Vulgarisation"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Benji Le Gnard",
+    "title": "Senior Frontend Developer & Architect",
+    "roles": [
+      "streamer",
+      "speaker"
+    ],
+    "bio": "Senior web developer, front-end architect, speaker, streamer, creative coder et musicien.",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:e76embe4vhsv4pyw3cxrbefw/bafkreihnugju2dkfpujghff52bfa3wybakqgayhk5xeechmslbkyu4eft4@jpeg",
+    "bluesky": "https://bsky.app/profile/benjilegnard.bsky.social",
+    "github": "https://github.com/benjilegnard",
+    "blog": "https://benjaminlegrand.net",
+    "twitch": "https://twitch.tv/benjilegnard",
+    "tags": [
+      "Frontend",
+      "Creative Coding",
+      "Speaker"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Akanoa",
+    "title": "Vulgarisateur graphique & Streamer",
+    "roles": [
+      "blog",
+      "streamer"
+    ],
+    "bio": "Pratique la vulgarisation graphique en dilettante. Streamer erratique.",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:yucu5nohrypawpy3hqjaejbt/bafkreidugz6qluf4zmfuywyvbj5xjwrrqwqxksmvox2ks7qhs4vloyqu5q@jpeg",
+    "bluesky": "https://bsky.app/profile/akanoa.bsky.social",
+    "github": "https://github.com/akanoa",
+    "blog": "https://lafor.ge",
+    "rss": "https://lafor.ge/feed.xml",
+    "twitch": "https://twitch.tv/akanoa",
+    "tags": [
+      "Rust",
+      "Nix",
+      "Vulgarisation"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Emile \"iMIl\" Heitor",
+    "title": "FOSS contributor & NetBSD developer",
+    "roles": [
+      "blog",
+      "streamer"
+    ],
+    "bio": "FOSS contributor, NetBSD developer. DJ et compositeur à ses heures perdues.",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jlkvfwdsrwr33osoe55szwx6/bafkreigggxmx4ybo4efeys2t5d4yrksv47hqtaxlhs4ecjrrgkb3bd66em@jpeg",
+    "bluesky": "https://bsky.app/profile/imil.net",
+    "github": "https://github.com/iMilnb",
+    "blog": "https://imil.net",
+    "rss": "https://imil.net/blog/index.xml",
+    "twitch": "https://twitch.tv/imilnb",
+    "tags": [
+      "FOSS",
+      "NetBSD",
+      "Open Source"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Stéphane TRÉBEL (Le Permacodeur)",
+    "title": "Développeur & créateur de contenu",
+    "roles": [
+      "streamer"
+    ],
+    "bio": "Le Permacodeur, sur Twitch et YouTube. Du dev et des memes, partout, tout le temps ! CEO d'HTMX et néorustacé 🦀",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:57fevlykvek2mgjv4y74cquj/bafkreib4yy35zobgss5ql7nerrwk5rzfdmb5iowxh2wio6knfz4ge6e4hy@jpeg",
+    "bluesky": "https://bsky.app/profile/permacodeur.fr",
+    "github": "https://github.com/StephaneTrebel",
+    "twitch": "https://twitch.tv/permacodeur",
+    "tags": [
+      "Rust",
+      "HTMX",
+      "Dev"
+    ]
   }
 ]
